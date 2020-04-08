@@ -1,15 +1,4 @@
 <section class="graph">
-	<!-- <GChart
-	    type="LineChart"
-	    :data="chartData"
-	/> -->
-	 
-
-	<table>
-		<tr v-for="items in chartData">
-			<td>
-				<div v-for="content in items">{{content}}</div>
-			</td>
-		</tr>
-	</table>
+	{{chartData}}
+	<div id="chart"></div>
 </section>

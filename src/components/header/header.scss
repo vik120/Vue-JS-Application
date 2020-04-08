@@ -1,6 +1,9 @@
-.header{
-	position: absolute;
-	left: 0;
-	width: 100%;
-	bottom: 0;
+.navbar-dark{
+	 .navbar-nav{
+	 	 .nav-link{
+	 	 	&.router-link-active{
+	 	 		color: #fff;
+	 	 	}
+	 	 }
+	 }
 }

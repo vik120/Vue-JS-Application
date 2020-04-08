@@ -13,7 +13,8 @@ export default {
       baseUrl: 'https://images-api.nasa.gov/search?q=earth',
       page: 1,
       perPage: 9,
-      pages: []
+      pages: [],
+      searchText: ''
     }
   },
   computed: {
